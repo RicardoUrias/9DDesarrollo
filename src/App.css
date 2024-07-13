@@ -2,11 +2,6 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -18,14 +13,28 @@
   color: white;
 }
 
-.App-link {
-  color: #61dafb;
+.form-group {
+  margin: 20px 0;
 }
 
-.heart {
-  color: #ff0000;
+label {
+  display: block;
+  margin-bottom: 5px;
 }
 
-.small {
-  font-size: 0.75rem;
+input {
+  padding: 10px;
+  font-size: 16px;
+  width: 300px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
 }
