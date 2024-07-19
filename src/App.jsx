@@ -1,7 +1,6 @@
-import React, { useState } from 'react';  // Solo una vez
+import React, { useState } from 'react';  // Esta madre estaba duplicada
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { Container, Form, Button, Alert } from 'react-bootstrap';
-import Login from './Login';
 import './App.css';
 
 
@@ -39,7 +38,7 @@ function App() {
 
   return (
     <Container className="d-flex flex-column align-items-center justify-content-center min-vh-100">
-      <h1 className="mb-4">Iniciar Sesión</h1>
+      <h1 className="mb-4">Iniciar Sesion</h1>
       <Form onSubmit={handleSubmit} style={{ width: '300px' }}>
         {showAlert && <Alert variant="success">Inicio de sesión exitoso</Alert>}
         <Form.Group controlId="username">
